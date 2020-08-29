@@ -7,6 +7,7 @@ public class Oppgave1 {
 
 	    System.out.println("Test av repetisjonssetning.");
 	    System.out.println("***************************");
+	    System.out.println("Test av endring github.");
 
 	    i = 1;
 
