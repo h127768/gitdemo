@@ -23,15 +23,16 @@ public class Oppgave3 {
 		double t = 1;
 		int k = 1;
 		
-		while (k <= n) {
-			if (n == 0){
-				t =+ x;
-			} else {
+		if(n == 0) {
+			showMessageDialog(null, "(Bruk while-setning)  " +x + "^" +n + " = " + t);
+		}else {
+			while(k <= n) {
 				t = t*x;
+				k = k+1;
 			}
-			k = k+1;
+			showMessageDialog(null, "(Bruk while-setning)  " +x + "^" +n + " = " + t);
 		}
-		showMessageDialog(null, "(Bruk while-setning)  " +x + "^" +n + " = " + t);
+		
 	}
 
 }
